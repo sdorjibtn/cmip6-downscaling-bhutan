@@ -20,6 +20,12 @@
 #   This script performs modified delta downscaling only.
 #   It does not perform QM/QDM bias correction.
 #   It does not use observations regridded to GCM resolution.
+# 
+# How to run
+Set your project root:
+
+```r
+Sys.setenv(CLIM_ROOT = "path/to/your/data")
 # =============================================================================
 
 rm(list = ls())
