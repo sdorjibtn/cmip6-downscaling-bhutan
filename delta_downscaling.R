@@ -24,7 +24,6 @@
 # How to run
 Set your project root:
 
-```r
 Sys.setenv(CLIM_ROOT = "path/to/your/data")
 # =============================================================================
 
