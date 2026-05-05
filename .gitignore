@@ -1,0 +1,7 @@
+*.tif
+*.nc
+*.grd
+*.gri
+*.zip
+outputs/
+data/
