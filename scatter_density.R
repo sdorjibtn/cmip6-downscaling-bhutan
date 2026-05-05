@@ -22,7 +22,7 @@
 #
 # To run:
 #   Sys.setenv(CLIM_ROOT = "path/to/project")
-#   source("scripts/06_scatter_density_historical_validation.R")
+#   source("scatter_density.R")
 # ============================================================
 
 suppressPackageStartupMessages({
