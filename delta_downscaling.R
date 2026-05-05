@@ -1,5 +1,5 @@
 # =============================================================================
-# Modified Delta Change Downscaling for Bhutan Climate Data
+# Modified delta change downscaling for Bhutan climate data
 #
 # This script downscales monthly GCM climate fields to a 250 m observational
 # grid using a modified delta change approach.
