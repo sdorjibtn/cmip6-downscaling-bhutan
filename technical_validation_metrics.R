@@ -17,10 +17,12 @@
 # NOTE:
 # - Observations are at high resolution (250 m)
 # - Raw and downscaled data are aligned to observation grid
+#   Taylor diagrams, PDFs, scatter-density plots, and other figures
+#   are generated using separate plotting scripts.
 #
 # To run:
 #   Sys.setenv(CLIM_ROOT = "path/to/project")
-#   source("technical_validation.R")
+#   source("technical_validation_metrics.R")
 # ============================================================
 
 rm(list = ls())
