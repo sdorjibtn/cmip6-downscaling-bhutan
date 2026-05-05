@@ -28,7 +28,7 @@
 #
 # To run:
 #   Sys.setenv(CLIM_ROOT = "path/to/project")
-#   source("hindcast_validation_delta.R")
+#   source("hindcast_validation.R")
 # ============================================================
 
 rm(list = ls())
