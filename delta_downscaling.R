@@ -16,33 +16,40 @@
 # Outputs:
 #   Annual GeoTIFF stacks containing 12 monthly layers per year.
 #
-# ## Data requirements
-
-Users must provide their own input datasets.
-
-The script assumes the following folder structure:
-
-CLIM_ROOT/
-├── data/
-│   ├── observation/
-│   │   └── nc_files/
-│   │       ├── precip_3ds_normals_19862015.nc
-│   │       ├── tmax_3ds_m_normals_19862015.nc
-│   │       └── tmin_3ds_tm_normals_19862015.nc
-│   └── gcm_monthly/
-│       ├── pr_mon_ACCESS-CM2_historical_1980-2014.nc
-│       ├── pr_mon_ACCESS-CM2_ssp245_2015-2100.nc
-│       └── ...
-
-If your data are stored differently, modify the following variables in the script:
-
-- obs_root
-- gcm_root
-
-# How to run
-Set your project root:
-
-Sys.setenv(CLIM_ROOT = "path/to/your/data")
+# -----------------------------------------------------------------------------
+# DATA REQUIREMENTS
+#
+# Users must provide their own input datasets.
+#
+# The script assumes the following folder structure:
+#
+# CLIM_ROOT/
+# ├── data/
+# │   ├── observation/
+# │   │   └── nc_files/
+# │   │       ├── precip_3ds_normals_19862015.nc
+# │   │       ├── tmax_3ds_m_normals_19862015.nc
+# │   │       └── tmin_3ds_tm_normals_19862015.nc
+# │   └── gcm_monthly/
+# │       ├── pr_mon_ACCESS-CM2_historical_1980-2014.nc
+# │       ├── pr_mon_ACCESS-CM2_ssp245_2015-2100.nc
+# │       └── ...
+#
+# If your data are stored differently, modify:
+#   - obs_root
+#   - gcm_root
+#
+# -----------------------------------------------------------------------------
+# HOW TO RUN
+#
+# Set your project root in R:
+#
+#   Sys.setenv(CLIM_ROOT = "path/to/your/data")
+#
+# Then run:
+#
+#   source("delta_downscaling.R")
+#
 # =============================================================================
 
 rm(list = ls())
