@@ -18,7 +18,7 @@
 #
 # To run:
 #   Sys.setenv(CLIM_ROOT = "path/to/project")
-#   source("scripts/07_perfect_sibling_validation.R")
+#   source("perfect_sibling.R")
 # ============================================================
 
 suppressPackageStartupMessages({
