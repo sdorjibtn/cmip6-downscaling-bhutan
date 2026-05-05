@@ -15,7 +15,7 @@ The dataset includes monthly climate variables for both historical (1980–2014)
 - Vapour pressure (vp)
 
 ### Derived variables
-- Bioclimatic variables (BIO1–BIO19)
+- Bioclimatic variables (bio1–bio19)
 
 Vapour pressure was derived from CMIP6 specific humidity (huss) and surface pressure (ps), aggregated to monthly means, and subsequently downscaled to 250 m resolution. It is included to support derivation of humidity-related variables (e.g., relative humidity) required for process-based models such as CLIMEX.
 
