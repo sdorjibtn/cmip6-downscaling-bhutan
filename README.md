@@ -24,20 +24,31 @@ Vapour pressure was derived from CMIP6 specific humidity (huss) and surface pres
 ### 1. Monthly climate variables
 The primary variables (pr, tasmin, tasmax, vp) are organised as:
 
+```
 variable/
   experiment/
     model/
+```
 
 Example:
+
+```
 pr/
   ssp126/
     ACCESS-CM2/
+```
 
 Each file contains monthly data for a single year:
+
+```
 <variable>_<model>_<experiment>_<period>_<year>.tif
+```
 
 Example:
+
+```
 pr_ACCESS-CM2_ssp126_2015-2100_2015.tif
+```
 
 Each GeoTIFF file contains 12 layers corresponding to monthly values.
 
@@ -45,18 +56,24 @@ Each GeoTIFF file contains 12 layers corresponding to monthly values.
 Bioclimatic variables (BIO1–BIO19) are provided as derived products.
 
 **Historical:**
+
+```
 bioclim/
   historical/
     <model>/
       bio1.tif ... bio19.tif
+```
 
 **Future:**
+
+```
 bioclim/
   future/
     <scenario>/
       <period>/
         <model>/
           bio1.tif ... bio19.tif
+```
 
 These are generated for each model, scenario, and time period.
 
@@ -73,8 +90,8 @@ Vapour pressure is available for one GCM (NorESM2-LM), as it was the only model 
 ## Requirements
 The scripts use the following R packages:
 
-- "terra"
-- "stringr"
+- terra
+- stringr
 - base R functions
 
 ## Usage
