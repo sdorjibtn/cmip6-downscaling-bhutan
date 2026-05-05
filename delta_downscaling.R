@@ -16,11 +16,6 @@
 # Outputs:
 #   Annual GeoTIFF stacks containing 12 monthly layers per year.
 #
-# Notes:
-#   This script performs modified delta downscaling only.
-#   It does not perform QM/QDM bias correction.
-#   It does not use observations regridded to GCM resolution.
-# 
 # How to run
 Set your project root:
 
