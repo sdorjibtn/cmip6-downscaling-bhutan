@@ -53,7 +53,7 @@ pr_ACCESS-CM2_ssp126_2015-2100_2015.tif
 Each GeoTIFF file contains 12 layers corresponding to monthly values.
 
 ### 2. Bioclimatic variables
-Bioclimatic variables (BIO1–BIO19) are provided as derived products.
+Bioclimatic variables (bio1–bio19) are provided as derived products.
 
 **Historical:**
 
