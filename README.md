@@ -1,6 +1,6 @@
 # Bhutan climate downscaling
 
-This repository contains scripts used to generate a high-resolution (250 m) climate dataset for Bhutan based on CMIP6 general circulation models (GCMs).
+This repository contains scripts used to generate a high-resolution (250 m) climate dataset for Bhutan based on 16 CMIP6 general circulation models (GCMs).
 
 ## Overview
 
