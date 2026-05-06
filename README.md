@@ -1,10 +1,10 @@
-# Bhutan climate downscaling (250 m)
+# Bhutan climate downscaling
 
 This repository contains scripts used to generate a high-resolution (250 m) climate dataset for Bhutan based on CMIP6 general circulation models (GCMs).
 
 ## Overview
 
-The dataset includes monthly climate variables for both historical (1980–2014) and future (2015–2100) periods under four CMIP6 scenarios (SSP126, SSP245, SSP370, SSP585). The downscaling was performed using a delta (change factor) approach, combining GCM-derived climate change signals with observation-based climatology.
+The dataset includes monthly climate variables for historical (1980–2014) and future (2015–2100) periods under four CMIP6 shared socio-economic pathways (SSPs): SSP1–2.6, SSP2–4.5, SSP3–7.0, and SSP5–8.5. Downscaling was performed using a modified delta (change factor) approach in which monthly anomalies were calculated relative to the historical GCM climatology at the native model resolution and subsequently interpolated to the 250 m observational grid. Multiplicative anomalies were applied for precipitation, while additive anomalies were applied for temperature variables. The interpolated anomalies were then combined with high-resolution observation-based monthly climatology to reconstruct spatially refined monthly climate fields while preserving the temporal variability of the original GCM simulations.
 
 ## Variables
 
