@@ -100,14 +100,14 @@ Users will need to adapt file paths and input data locations to their own system
 
 ## Data Availability
 The dataset is available at:  
-[https://doi.org/10.25919/d8n7-5a07]
+[https://doi.org/10.5281/zenodo.20469379]
 
 ---
 
 ## Citation
 If you use this dataset, please cite:
 
-Dorji, Sangay; Stewart, Stephen; Bajwa, Ali; Aziz, Ammar; Shabbir, Asad; & Adkins, Steve (2024): BhutanBioClims: High-resolution (250 m) historical and projected (CMIP6) bioclimatic variables for Bhutan. v2. CSIRO. Data Collection. https://doi.org/10.25919/d8n7-5a07
+Dorji, S., Stewart, S., Bajwa, A., Shabbir, A., Abdul Aziz, A., & Adkins, S. (2026). High-resolution (250 m) historical and future climate dataset for Bhutan downscaled from 16 CMIP6 general circulation models (Version 1.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.20469379
 
 ---
 
